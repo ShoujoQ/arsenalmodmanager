@@ -144,6 +144,22 @@ namespace Arsenal_A_Hearts_of_Iron_II_Mod_Manager
             // For each mod in the enabled mods list:
             foreach (string s in listBox_enabledMods.Items)
             {
+                // Make sure the destination directory structure exists. If it doesn't, create it.
+                List<String> directoryList = Directory.GetDirectories((paths.Item2 + "\\" + s + "\\"), "*", SearchOption.AllDirectories).ToList();
+
+                foreach (string directory in directoryList)
+                {
+                    // Convert to the destination directory path
+                    string destinationDirectoryPath = paths.Item1 + directory.Substring((paths.Item2.Length + 2 + s.Length), (directory.Length - (paths.Item2.Length + 2 + s.Length)));
+
+                    // If it doesn't exist
+                    if (!Directory.Exists(destinationDirectoryPath))
+                    {
+                        // Create it
+                        Directory.CreateDirectory(destinationDirectoryPath);
+                    }
+                }
+
                 // Read the manifest file.
                 fileList = readModManifest(paths.Item2, s);
 
