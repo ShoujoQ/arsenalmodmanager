@@ -150,7 +150,7 @@ namespace Arsenal_A_Hearts_of_Iron_II_Mod_Manager
                 foreach (string directory in directoryList)
                 {
                     // Convert to the destination directory path
-                    string destinationDirectoryPath = paths.Item1 + directory.Substring((paths.Item2.Length + 2 + s.Length), (directory.Length - (paths.Item2.Length + 2 + s.Length)));
+                    string destinationDirectoryPath = paths.Item1 + "\\" + directory.Substring((paths.Item2.Length + 2 + s.Length), (directory.Length - (paths.Item2.Length + 2 + s.Length)));
 
                     // If it doesn't exist
                     if (!Directory.Exists(destinationDirectoryPath))
