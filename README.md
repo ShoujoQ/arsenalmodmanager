@@ -1,5 +1,6 @@
 # arsenalmodmanager
 Arsenal: A Hearts of Iron 2 Mod Manager
+
 by Lady Lambdadelta, March 2019
 
 = USER MANUAL =
