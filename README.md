@@ -5,6 +5,7 @@ by Lady Lambdadelta, March 2019
 = USER MANUAL =
 
 = Introduction =
+
 Arsenal is a simple modification manager for Hearts of Iron 2 and games based on it (such as Arsenal of Democracy and Darkest Hour: A Hearts of Iron Game). It is released to the public under the terms of the Do What the Fuck You Want To Public License (WTFPL).
 How to Use
 1.	Put all of your modification files in their own folder (with the same name as the mod), with the same folder structure as the vanilla game files. Put these folders in another folder with a relevant name (for example, Arsenal Mod Staging).
@@ -19,6 +20,7 @@ How to Use
 10.	Once the process is complete, you can exit Arsenal by pressing the Exit button at the bottom-centre of the main application window.
 
 = Software License =
+
            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                    Version 2, December 2004
  
