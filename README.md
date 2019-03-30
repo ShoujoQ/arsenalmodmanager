@@ -7,7 +7,9 @@ by Lady Lambdadelta, March 2019
 = Introduction =
 
 Arsenal is a simple modification manager for Hearts of Iron 2 and games based on it (such as Arsenal of Democracy and Darkest Hour: A Hearts of Iron Game). It is released to the public under the terms of the Do What the Fuck You Want To Public License (WTFPL).
-How to Use
+
+= How to Use =
+
 1.	Put all of your modification files in their own folder (with the same name as the mod), with the same folder structure as the vanilla game files. Put these folders in another folder with a relevant name (for example, Arsenal Mod Staging).
 2.	Run Arsenal - A Hearts of Iron 2 Mod Manager.exe. If this is your first time running it, you will see a dialog box warning you that you have not set a game install, mod staging or vanilla backup path. Press OK.
 3.	On the window that appears (the main window of the mod manager), press the Path Setup button at the top centre of the window.
